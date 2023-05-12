@@ -55,15 +55,15 @@ Describe cómo utilizar tu API. Proporciona ejemplos de endpoints, solicitudes y
 
 ### Categorías (Category)
 
-- `/categories`: Permite realizar operaciones CRUD en las categorías de productos.
+- `/categories`: Permite realizar operaciones CRUD en las categorías de productos, solo disponible spara vendedores y administradores.
 
 ### Clientes (Customer)
 
-- `/customers`: Permite realizar operaciones CRUD en los clientes de la tienda.
+- `/customers`: Permite realizar operaciones CRUD en los clientes de la tienda, con funcionalidades complejas.
 
 ### Pedidos (Order)
 
-- `/orders`: Permite realizar operaciones CRUD en los pedidos realizados por los clientes.
+- `/orders`: Permite realizar operaciones CRUD en los pedidos realizados por los clientes gracias a relaciones muchos a muchos.
 
 ### Productos (Product)
 
@@ -71,7 +71,7 @@ Describe cómo utilizar tu API. Proporciona ejemplos de endpoints, solicitudes y
 
 ### Usuarios (User)
 
-- `/users`: Permite realizar operaciones CRUD en los usuarios de la plataforma.
+- `/users`: Permite realizar operaciones CRUD en los usuarios de la plataforma, autentificación y autorizaciones de acuerdo al rol del usuario, si quieres cambiar la contraseña te enviará un correo que mediante un link de lo permite.
 
 ## Estructura del Proyecto
 
