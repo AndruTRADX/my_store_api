@@ -22,7 +22,6 @@ Esta API es una aplicación de tienda en la que los usuarios pueden realizar div
 2. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
 ```bash
-#!/bin/bash
 npm install
 ```
 
@@ -31,14 +30,12 @@ npm install
 4. Para utilizar el Docker Compose, asegúrate de tenerlo instalado y ejecuta el siguiente comando para levantar la base de datos PostgreSQL:
 
 ```bash
-#!/bin/bash
 docker-compose up -d
 ```
 
 5. Ejecuta el siguiente comando para iniciar la API en modo de desarrollo:
 
 ```bash
-#!/bin/bash
 npm run dev
 ```
 
